@@ -1,13 +1,13 @@
 {
-  "name": "DevConnector",
+  "name": "devconnector",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
-    "dev-connector-ui": "npm start --prefix dev-connector-ui",
-    "dev": "concurrently\"npm run server \" \"npm run dev-connector-ui \""
+    "client": "npm start --prefix dev-connector-ui",
+    "dev": "concurrently\"npm run server \" \"npm run client \""
   },
   "keywords": [],
   "author": "Ramya Potla",
